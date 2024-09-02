@@ -79,9 +79,10 @@ contract Overtime {
     address[] assigned;
     function addTask(uint256 timeRequired, uint256 expertiseRequired, uint256 hourlyWage, uint256 deadline, bool divisible) public onlyAdmin {
         tasks.push(Task(timeRequired, expertiseRequired, hourlyWage, deadline, divisible,false,0));
-        allocate(tasks.length-1);
+        
         address[] memory t;
         assignedList.push(t);
+        allocate(tasks.length-1);
     }
     bool [] doneTask;
     function checkStatusTask(uint taskId) public returns (bool[]memory){
