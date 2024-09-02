@@ -1,0 +1,28 @@
+{
+  "name": "overtime_api",
+  "version": "1.0.0",
+  "description": "Submission By Hall2 for PS Overtime",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavaitron/Overtime_API.git"
+  },
+  "author": "Xavaitron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xavaitron/Overtime_API/issues"
+  },
+  "homepage": "https://github.com/Xavaitron/Overtime_API#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "hardhat": "^2.12.7",
+    "path": "^0.12.7"
+  }
+}
